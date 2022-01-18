@@ -1,4 +1,4 @@
-package com.sebade.clonenewsapp
+package com.sebade.clonenewsapp.models
 
 data class NewsResponse(
     val articles: List<Article>,

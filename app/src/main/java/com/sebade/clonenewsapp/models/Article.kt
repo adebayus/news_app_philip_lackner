@@ -1,4 +1,4 @@
-package com.sebade.clonenewsapp
+package com.sebade.clonenewsapp.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -6,6 +6,7 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "articles")
 data class Article(
+//    @PrimaryKey(autoGenerate = true)
     @PrimaryKey(autoGenerate = true)
     var id : Int? = null,
     val author: Any,

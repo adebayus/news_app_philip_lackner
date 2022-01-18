@@ -2,7 +2,7 @@ package com.sebade.clonenewsapp.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.sebade.clonenewsapp.Article
+import com.sebade.clonenewsapp.models.Article
 
 @Dao
 interface ArticleDao {

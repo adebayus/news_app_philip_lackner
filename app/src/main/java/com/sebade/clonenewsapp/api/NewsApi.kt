@@ -1,6 +1,6 @@
 package com.sebade.clonenewsapp.api
 
-import com.sebade.clonenewsapp.NewsResponse
+import com.sebade.clonenewsapp.models.NewsResponse
 import com.sebade.clonenewsapp.utils.Constant.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
@@ -27,6 +27,5 @@ interface NewsApi {
         @Query("apiKey")
         apiKey: String = API_KEY
     ) : Response<NewsResponse>
-
 
 }
